@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/app_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:id="@+id/logInAsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/garbage_management_system"
+                android:textColor="@color/white"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/garbageImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/garbage_boy" />
+
+
+            <life.sabujak.roundedbutton.RoundedButton
+                android:id="@+id/admin"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:text="@string/admin"
+                android:textColor="@color/button_text_color"
+                android:textSize="18sp"
+                app:buttonCornerRadius="50dp"
+                app:buttonGradientEndColor="@color/button_color"
+                app:buttonGradientStartColor="#CAE4CB" />
+
+            <life.sabujak.roundedbutton.RoundedButton
+                android:id="@+id/driver"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:text="@string/driver"
+                android:textColor="@color/button_text_color"
+                android:textSize="18sp"
+                app:buttonCornerRadius="50dp"
+                app:buttonGradientEndColor="@color/button_color"
+                app:buttonGradientStartColor="#CAE4CB" />
+
+            <life.sabujak.roundedbutton.RoundedButton
+                android:id="@+id/user"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:text="@string/user"
+                android:textColor="@color/button_text_color"
+                android:textSize="18sp"
+                app:buttonCornerRadius="50dp"
+                app:buttonGradientEndColor="@color/button_color"
+                app:buttonGradientStartColor="#CAE4CB" />
+
+            <life.sabujak.roundedbutton.RoundedButton
+                android:id="@+id/register"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:text="@string/register"
+                android:textColor="@color/button_text_color"
+                android:textSize="18sp"
+                app:buttonCornerRadius="50dp"
+                app:buttonGradientEndColor="@color/button_color"
+                app:buttonGradientStartColor="#CAE4CB" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
