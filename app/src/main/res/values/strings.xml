@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Garbage Management System</string>
+    <string name="register">Register</string>
+    <string name="user">User</string>
+    <string name="driver">Driver</string>
+    <string name="admin">Admin</string>
+    <string name="garbage_management">Garbage Management</string>
+    <string name="admin_registration">Admin Registration</string>
+    <string name="register_as">Register As!</string>
+    <string name="email">Email</string>
+    <string name="password">Create Password</string>
+    <string name="cnic">CNIC</string>
+    <string name="username">Username</string>
+    <string name="already_have_account">Already Have Account?</string>
+    <string name="log_in">Log In</string>
+    <string name="registeration">Registeration?</string>
+    <string name="registration">Registration</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_profile">My Profile</string>
+    <string name="add_bin">Add Bin</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="driver_email">Driver Email</string>
+    <string name="load_type">Load Type</string>
+    <string name="bin_id">Bin ID</string>
+    <string name="cycle">Cycle</string>
+    <string name="create">Create</string>
+    <string name="best_root">Best Route</string>
+    <string name="search_using_id">Search Using ID</string>
+    <string name="driver_details">Driver Details</string>
+    <string name="search_using_cnic">Search using CNIC</string>
+    <string name="bin_details">Bin Details</string>
+    <string name="submit_complaint">Submit Complaint</string>
+    <string name="select_bin_id">Select Bin ID</string>
+
+
+    <!--    cycle spinner-->
+    <string-array name="cycle">
+        <item>Dailly</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <string name="MAP_API_KEY" translatable="false">
+        AIzaSyBQE2L8QMweBosrT3A8jksAbSNS1UmmDS0
+    </string>
+    <string name="about_us">Smart cities integrate multiple mobile solutions to build a comfortable human habitation. One of these solutions is to provide an environmentally friendly, efficient and effective garbage management system. The current garbage collection system includes routine garbage trucks doing rounds daily or weekly, which not only doesn’t cover every zone of the city but is a completely inefficient use of government resources. This paper proposes a cost-effective mobile application for the government to utilize available resources to efficiently manage the overwhelming amounts of garbage collected each day, while also providing a better solution for the inconvenience of garbage disposal for the citizens. The app primarily provides the generated routes for the workforce and finds the nearest available smart bin for citizens.Smart cities integrate multiple mobile solutions to build a comfortable human habitation. One of these solutions is to provide an environmentally friendly, efficient and effective garbage management system. The current garbage collection system includes routine garbage trucks doing rounds daily or weekly, which not only doesn’t cover every zone of the city but is a completely inefficient use of government resources. This paper proposes a cost-effective mobile application for the government to utilize available resources to efficiently manage the overwhelming amounts of garbage collected each day, while also providing a better solution for the inconvenience of garbage disposal for the citizens. The app primarily provides the generated routes for the workforce and finds the nearest available smart bin for citizens.</string>
+    <string name="garbage_management_system">Garbage Management System</string>
+    <string name="change">Change</string>
+    <string name="delete">Delete</string>
+    <string name="show_map">Show Map</string>
+    <string name="best_route">Best Route</string>
+
+</resources>
