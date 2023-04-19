@@ -6,9 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.renderscript.ScriptGroup;
 
-import com.baig.garbagemanagementsystem.MainActivity;
-import com.baig.garbagemanagementsystem.R;
-import com.baig.garbagemanagementsystem.databinding.ActivityRegistrationBinding;
+import com.cmpe277.garbagemanagementsystem.MainActivity;
+import com.cmpe277.garbagemanagementsystem.R;
+import com.cmpe277.garbagemanagementsystem.databinding.ActivityRegistrationBinding;
 
 public class Registration extends AppCompatActivity {
     ActivityRegistrationBinding binding;

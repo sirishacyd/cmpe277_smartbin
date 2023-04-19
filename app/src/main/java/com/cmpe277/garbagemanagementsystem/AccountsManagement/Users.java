@@ -20,7 +20,7 @@ public class Users {
 
     }
 
-    //Construtor with parameters
+    //Constructor with parameters
     public Users(String userName, String userEmail, String userPassword, String cnic) {
         this.userName = userName;
         this.userEmail = userEmail;

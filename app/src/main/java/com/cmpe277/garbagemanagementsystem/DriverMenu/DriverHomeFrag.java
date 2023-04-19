@@ -10,9 +10,9 @@ import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.Toast;
 
-import com.baig.garbagemanagementsystem.OpenMap;
-import com.baig.garbagemanagementsystem.R;
-import com.baig.garbagemanagementsystem.databinding.FragmentDriverHomeBinding;
+import com.cmpe277.garbagemanagementsystem.OpenMap;
+import com.cmpe277.garbagemanagementsystem.R;
+import com.cmpe277.garbagemanagementsystem.databinding.FragmentDriverHomeBinding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 

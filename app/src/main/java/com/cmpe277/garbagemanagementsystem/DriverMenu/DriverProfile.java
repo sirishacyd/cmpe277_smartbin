@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.baig.garbagemanagementsystem.R;
+import com.cmpe277.garbagemanagementsystem.R;
 
 public class DriverProfile extends AppCompatActivity {
 

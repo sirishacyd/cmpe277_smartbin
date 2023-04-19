@@ -9,8 +9,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.baig.garbagemanagementsystem.DriverMenu.DriverScreen;
-import com.baig.garbagemanagementsystem.databinding.ActivityDriverLogInBinding;
+import com.cmpe277.garbagemanagementsystem.DriverMenu.DriverScreen;
+import com.cmpe277.garbagemanagementsystem.databinding.ActivityDriverLogInBinding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 

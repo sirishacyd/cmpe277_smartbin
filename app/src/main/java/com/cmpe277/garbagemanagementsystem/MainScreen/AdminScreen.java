@@ -30,7 +30,6 @@ public class AdminScreen extends AppCompatActivity implements NavigationView.OnN
         binding = ActivityAdminScreenBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        //top toolbar hai bhai is ka kaam menu main listeners lagaanay hain baad main dek lena
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.showOverflowMenu();

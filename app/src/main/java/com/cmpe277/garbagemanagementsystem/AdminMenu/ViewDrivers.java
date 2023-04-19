@@ -10,12 +10,12 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 
-import com.baig.garbagemanagementsystem.AccountsManagement.DigitalBin;
-import com.baig.garbagemanagementsystem.AccountsManagement.Drivers;
-import com.baig.garbagemanagementsystem.Adapters.BinAdapter;
-import com.baig.garbagemanagementsystem.Adapters.DriversAdapter;
-import com.baig.garbagemanagementsystem.R;
-import com.baig.garbagemanagementsystem.databinding.ActivityViewDriversBinding;
+import com.cmpe277.garbagemanagementsystem.AccountsManagement.DigitalBin;
+import com.cmpe277.garbagemanagementsystem.AccountsManagement.Drivers;
+import com.cmpe277.garbagemanagementsystem.Adapters.BinAdapter;
+import com.cmpe277.garbagemanagementsystem.Adapters.DriversAdapter;
+import com.cmpe277.garbagemanagementsystem.R;
+import com.cmpe277.garbagemanagementsystem.databinding.ActivityViewDriversBinding;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;

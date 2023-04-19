@@ -15,11 +15,11 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.baig.garbagemanagementsystem.MainActivity;
-import com.baig.garbagemanagementsystem.MainScreen.AboutUs;
-import com.baig.garbagemanagementsystem.MainScreen.UserHomeFrag;
-import com.baig.garbagemanagementsystem.MainScreen.UserScreen;
-import com.baig.garbagemanagementsystem.R;
+import com.cmpe277.garbagemanagementsystem.MainActivity;
+import com.cmpe277.garbagemanagementsystem.MainScreen.AboutUs;
+import com.cmpe277.garbagemanagementsystem.MainScreen.UserHomeFrag;
+import com.cmpe277.garbagemanagementsystem.MainScreen.UserScreen;
+import com.cmpe277.garbagemanagementsystem.R;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 

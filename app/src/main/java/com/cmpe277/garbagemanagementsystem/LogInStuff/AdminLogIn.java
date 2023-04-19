@@ -9,8 +9,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.baig.garbagemanagementsystem.MainScreen.AdminScreen;
-import com.baig.garbagemanagementsystem.databinding.ActivityAdminLogInBinding;
+import com.cmpe277.garbagemanagementsystem.MainScreen.AdminScreen;
+import com.cmpe277.garbagemanagementsystem.databinding.ActivityAdminLogInBinding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 

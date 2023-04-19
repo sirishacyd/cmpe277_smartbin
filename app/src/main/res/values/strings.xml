@@ -13,7 +13,7 @@
     <string name="username">Username</string>
     <string name="already_have_account">Already Have Account?</string>
     <string name="log_in">Log In</string>
-    <string name="registeration">Registeration?</string>
+    <string name="registeration">Registration?</string>
     <string name="registration">Registration</string>
     <string name="nav_open_drawer">Open navigation drawer</string>
     <string name="nav_close_drawer">Close navigation drawer</string>
@@ -39,7 +39,7 @@
 
     <!--    cycle spinner-->
     <string-array name="cycle">
-        <item>Dailly</item>
+        <item>Daily</item>
         <item>Weekly</item>
         <item>Monthly</item>
     </string-array>

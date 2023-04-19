@@ -8,11 +8,11 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.baig.garbagemanagementsystem.AccountsManagement.Users;
-import com.baig.garbagemanagementsystem.MainActivity;
-import com.baig.garbagemanagementsystem.MainScreen.AdminScreen;
-import com.baig.garbagemanagementsystem.MainScreen.UserScreen;
-import com.baig.garbagemanagementsystem.databinding.ActivityUserRegistrationBinding;
+import com.cmpe277.garbagemanagementsystem.AccountsManagement.Users;
+import com.cmpe277.garbagemanagementsystem.MainActivity;
+import com.cmpe277.garbagemanagementsystem.MainScreen.AdminScreen;
+import com.cmpe277.garbagemanagementsystem.MainScreen.UserScreen;
+import com.cmpe277.garbagemanagementsystem.databinding.ActivityUserRegistrationBinding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 

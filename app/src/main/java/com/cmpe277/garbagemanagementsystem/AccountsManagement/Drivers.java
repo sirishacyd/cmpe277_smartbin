@@ -20,7 +20,7 @@ public class Drivers {
 
     }
 
-    //Construtor with parameters
+    //Constructor with parameters
     public Drivers(String userName,String emailAddress,String userPassword,String cnic){
         this.userName = userName;
         this.emailAddress = emailAddress;

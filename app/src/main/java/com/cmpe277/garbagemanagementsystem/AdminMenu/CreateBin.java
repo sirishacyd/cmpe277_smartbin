@@ -13,11 +13,11 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
-import com.baig.garbagemanagementsystem.AccountsManagement.DigitalBin;
-import com.baig.garbagemanagementsystem.MainScreen.AdminHomeFrag;
-import com.baig.garbagemanagementsystem.MainScreen.AdminScreen;
-import com.baig.garbagemanagementsystem.R;
-import com.baig.garbagemanagementsystem.databinding.ActivityCreateBinBinding;
+import com.cmpe277.garbagemanagementsystem.AccountsManagement.DigitalBin;
+import com.cmpe277.garbagemanagementsystem.MainScreen.AdminHomeFrag;
+import com.cmpe277.garbagemanagementsystem.MainScreen.AdminScreen;
+import com.cmpe277.garbagemanagementsystem.R;
+import com.cmpe277.garbagemanagementsystem.databinding.ActivityCreateBinBinding;
 import com.google.firebase.FirebaseException;
 import com.google.firebase.database.DatabaseException;
 import com.google.firebase.database.FirebaseDatabase;

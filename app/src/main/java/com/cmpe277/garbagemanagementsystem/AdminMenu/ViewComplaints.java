@@ -9,12 +9,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-import com.baig.garbagemanagementsystem.AccountsManagement.Complaints;
-import com.baig.garbagemanagementsystem.Adapters.RegCompAdapter;
-import com.baig.garbagemanagementsystem.Adapters.ViewComplaintsAdapter;
-import com.baig.garbagemanagementsystem.R;
-import com.baig.garbagemanagementsystem.databinding.ActivityUpdateComplaitBinding;
-import com.baig.garbagemanagementsystem.databinding.ActivityViewComplaintsBinding;
+import com.cmpe277.garbagemanagementsystem.AccountsManagement.Complaints;
+import com.cmpe277.garbagemanagementsystem.Adapters.RegCompAdapter;
+import com.cmpe277.garbagemanagementsystem.Adapters.ViewComplaintsAdapter;
+import com.cmpe277.garbagemanagementsystem.R;
+import com.cmpe277.garbagemanagementsystem.databinding.ActivityUpdateComplaitBinding;
+import com.cmpe277.garbagemanagementsystem.databinding.ActivityViewComplaintsBinding;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;

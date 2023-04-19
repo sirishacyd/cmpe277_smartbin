@@ -20,7 +20,7 @@ public class Admin {
 
     }
 
-    //Construtor with parameters
+    //Constructor with parameters
     public Admin(String userName,String emailAddress,String userPassword,String cnic){
         this.userName = userName;
         this.emailAddress = emailAddress;

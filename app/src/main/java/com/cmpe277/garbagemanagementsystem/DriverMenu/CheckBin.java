@@ -10,10 +10,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import com.baig.garbagemanagementsystem.AccountsManagement.DigitalBin;
-import com.baig.garbagemanagementsystem.Adapters.BinAdapter;
-import com.baig.garbagemanagementsystem.Adapters.CheckBinAdapter;
-import com.baig.garbagemanagementsystem.databinding.ActivityCheckBinBinding;
+import com.cmpe277.garbagemanagementsystem.AccountsManagement.DigitalBin;
+import com.cmpe277.garbagemanagementsystem.Adapters.BinAdapter;
+import com.cmpe277.garbagemanagementsystem.Adapters.CheckBinAdapter;
+import com.cmpe277.garbagemanagementsystem.databinding.ActivityCheckBinBinding;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
