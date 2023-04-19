@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.github.abdularis.civ.AvatarImageView
+            android:id="@+id/profilePicture"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:scaleType="centerCrop"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:view_state="IMAGE"
+            android:src="@drawable/driver_avatar"
+            app:textColor="@color/white"
+            app:strokeColor="@android:color/white"
+            app:strokeWidth="1dp"
+            app:text="A"
+            app:textSize="22sp" />
+
+        <TextView
+            android:text="User"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="user@gmail.com"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="0319077712"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <life.sabujak.roundedbutton.RoundedButton
+            android:id="@+id/editProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:text="Edit Profile"
+            android:textColor="@color/button_text_color"
+            android:textSize="18sp"
+            app:buttonCornerRadius="50dp"
+            app:buttonGradientEndColor="#6ACF10"
+            app:buttonGradientStartColor="#CAE4CB" />
+
+    </LinearLayout>
+
+</LinearLayout>

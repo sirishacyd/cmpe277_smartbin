@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Work Report"
+        android:textSize="35sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:hint="Search Work Date"
+        app:startIconDrawable="@drawable/ic_search_icon"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/searchDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <HorizontalScrollView
+        android:fillViewport="true"
+        android:measureAllChildren="false"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/time"
+                    android:text="Time and Date"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="16dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/binId"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="Bin ID"
+                    android:textSize="16dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/binAddress"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="Bin Address"
+                    android:textSize="16dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"/>
+                <!--            <TextView-->
+                <!--                android:id="@+id/city"-->
+                <!--                android:padding="5dp"-->
+                <!--                android:text="String"-->
+                <!--                android:textSize="20dp"-->
+                <!--                android:layout_width="wrap_content"-->
+                <!--                android:layout_height="wrap_content"/>-->
+                <TextView
+                    android:padding="5dp"
+                    android:text="Load Type"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="Cycle"
+                    android:textSize="16dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="Driver Email"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="16dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="Cleaning"
+                    android:textSize="16dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/workDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+
+</LinearLayout>
