@@ -60,7 +60,7 @@
                 android:id="@+id/myComplains"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="My Complains"
+                android:text="My Complaints"
                 android:textColor="@color/button_text_color"
                 android:textSize="20dp" />
 
