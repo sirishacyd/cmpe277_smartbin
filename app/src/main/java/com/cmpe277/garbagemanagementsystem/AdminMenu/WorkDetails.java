@@ -86,7 +86,7 @@ public class WorkDetails extends AppCompatActivity {
     public void filter(String text) {
         ArrayList<WorkReport> filteredList = new ArrayList<>();
         for (WorkReport bin : list) {
-            if (bin.getDriverMail().toLowerCase().contains(text.toLowerCase())) {
+            if (bin.getTime().toLowerCase().contains(text.toLowerCase())) {
                 filteredList.add(bin);
             }
         }
