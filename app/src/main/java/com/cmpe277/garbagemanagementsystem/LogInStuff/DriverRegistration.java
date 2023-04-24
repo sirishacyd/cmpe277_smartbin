@@ -65,9 +65,11 @@ public class DriverRegistration extends AppCompatActivity {
                                         binding.emailAddress.getText().toString(),
                                         binding.userPassword.getText().toString(),
                                         binding.cnic.getText().toString());
-                                String id = task.getResult().getUser().getUid();
 
-                                firebaseDatabase.getReference().child("Drivers").child(id).setValue(drivers);
+                                String user_id = task.getResult().getUser().getUid();
+                                drivers.setUid(user_id);
+
+                                firebaseDatabase.getReference().child("Drivers").child(user_id).setValue(drivers);
 
                                 Toast.makeText(DriverRegistration.this, "Driver Created Successfully!",
                                         Toast.LENGTH_SHORT).show();

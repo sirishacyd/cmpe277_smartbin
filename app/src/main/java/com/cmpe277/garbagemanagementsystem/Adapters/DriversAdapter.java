@@ -16,6 +16,9 @@ import com.cmpe277.garbagemanagementsystem.AccountsManagement.Drivers;
 import com.cmpe277.garbagemanagementsystem.AdminMenu.CreateBin;
 import com.cmpe277.garbagemanagementsystem.LogInStuff.DriverRegistration;
 import com.cmpe277.garbagemanagementsystem.R;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -24,6 +27,8 @@ import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.concurrent.Executor;
+
 import life.sabujak.roundedbutton.RoundedButton;
 
 public class DriversAdapter extends RecyclerView.Adapter<DriversAdapter.DriversViewHolder> {
@@ -62,7 +67,7 @@ public class DriversAdapter extends RecyclerView.Adapter<DriversAdapter.DriversV
             @Override
             public void onClick(View v) {
                 DatabaseReference ref = FirebaseDatabase.getInstance().getReference();
-                Query binQuery = ref.child("Drivers").child(drivers.getUserName());
+                Query binQuery = ref.child("Drivers").child(drivers.getUid());
 
                 binQuery.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
@@ -70,6 +75,14 @@ public class DriversAdapter extends RecyclerView.Adapter<DriversAdapter.DriversV
                         for (DataSnapshot driversSnapShot: dataSnapshot.getChildren()) {
                             driversSnapShot.getRef().removeValue();
                         }
+                        Task<AuthResult> loginTask = FirebaseAuth
+                                .getInstance()
+                                .signInWithEmailAndPassword(drivers.getEmailAddress(), drivers.getUserPassword());
+                        loginTask.addOnCompleteListener(Runnable::run, task -> {
+                            if (task.isSuccessful()) {
+                                task.getResult().getUser().delete();
+                            }
+                        });
                         Toast.makeText(context,"Driver Deleted Successfully!",Toast.LENGTH_SHORT).show();
                     }
 

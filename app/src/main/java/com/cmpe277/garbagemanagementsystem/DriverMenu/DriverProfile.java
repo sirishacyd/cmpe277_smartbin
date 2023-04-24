@@ -30,9 +30,9 @@ public class DriverProfile extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
-        String driver_id = mAuth.getCurrentUser().getUid();
+        String driver_uid = mAuth.getCurrentUser().getUid();
 
-        mDatabaseRef = FirebaseDatabase.getInstance().getReference("Drivers").child(driver_id);
+        mDatabaseRef = FirebaseDatabase.getInstance().getReference("Drivers").child(driver_uid);
 
         mDatabaseRef.addValueEventListener(new ValueEventListener() {
             @Override

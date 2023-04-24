@@ -5,6 +5,8 @@ public class Drivers {
     private String emailAddress;
     private String userPassword;
 
+    private String uid;
+
     public String getCnic() {
         return cnic;
     }
@@ -54,6 +56,8 @@ public class Drivers {
         this.userPassword = userPassword;
     }
 
+    public void setUid(String uid) { this.uid = uid; }
 
+    public String getUid() { return uid; }
 
 }
