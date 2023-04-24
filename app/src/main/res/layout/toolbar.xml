@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/toolbar"
-    app:title="GMS"
+    app:title="SmartBin"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
     tools:menu="@menu/settings_menu"

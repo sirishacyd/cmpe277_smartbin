@@ -30,7 +30,7 @@
                 android:gravity="center"
                 android:layout_marginBottom="20dp"
                 android:fontFamily="sans-serif-thin"
-                android:text="@string/garbage_management_system"
+                android:text="SmartBin"
                 android:textColor="@color/white"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
                 android:textStyle="bold" />
