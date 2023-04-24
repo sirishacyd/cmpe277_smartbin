@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Garbage Management System</string>
+    <string name="app_name">SmartBin</string>
     <string name="register">Register</string>
     <string name="user">User</string>
     <string name="driver">Driver</string>
     <string name="admin">Admin</string>
-    <string name="garbage_management">Garbage Management</string>
+    <string name="garbage_management">SmartBin</string>
     <string name="admin_registration">Admin Registration</string>
     <string name="register_as">Register As!</string>
     <string name="email">Email</string>
@@ -48,7 +48,7 @@
         "MAP API KEY"
     </string>
     <string name="about_us">Smart cities integrate multiple mobile solutions to build a comfortable human habitation. One of these solutions is to provide an environmentally friendly, efficient and effective garbage management system. The current garbage collection system includes routine garbage trucks doing rounds daily or weekly, which not only doesn’t cover every zone of the city but is a completely inefficient use of government resources. This paper proposes a cost-effective mobile application for the government to utilize available resources to efficiently manage the overwhelming amounts of garbage collected each day, while also providing a better solution for the inconvenience of garbage disposal for the citizens. The app primarily provides the generated routes for the workforce and finds the nearest available smart bin for citizens.Smart cities integrate multiple mobile solutions to build a comfortable human habitation. One of these solutions is to provide an environmentally friendly, efficient and effective garbage management system. The current garbage collection system includes routine garbage trucks doing rounds daily or weekly, which not only doesn’t cover every zone of the city but is a completely inefficient use of government resources. This paper proposes a cost-effective mobile application for the government to utilize available resources to efficiently manage the overwhelming amounts of garbage collected each day, while also providing a better solution for the inconvenience of garbage disposal for the citizens. The app primarily provides the generated routes for the workforce and finds the nearest available smart bin for citizens.</string>
-    <string name="garbage_management_system">Garbage Management System</string>
+    <string name="garbage_management_system">SmartBin</string>
     <string name="change">Change</string>
     <string name="delete">Delete</string>
     <string name="show_map">Show Map</string>
