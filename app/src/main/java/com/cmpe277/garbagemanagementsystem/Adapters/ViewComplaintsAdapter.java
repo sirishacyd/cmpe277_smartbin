@@ -14,7 +14,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.cmpe277.garbagemanagementsystem.AccountsManagement.Complaints;
-import com.cmpe277.garbagemanagementsystem.AccountsManagement.Drivers;
 import com.cmpe277.garbagemanagementsystem.R;
 import com.google.firebase.database.FirebaseDatabase;
 
