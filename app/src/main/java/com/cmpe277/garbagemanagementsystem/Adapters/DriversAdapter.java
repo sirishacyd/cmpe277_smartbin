@@ -70,7 +70,7 @@ public class DriversAdapter extends RecyclerView.Adapter<DriversAdapter.DriversV
                         for (DataSnapshot driversSnapShot: dataSnapshot.getChildren()) {
                             driversSnapShot.getRef().removeValue();
                         }
-                        Toast.makeText(context,"Driver Deleted Successfuly!",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context,"Driver Deleted Successfully!",Toast.LENGTH_SHORT).show();
                     }
 
                     @Override

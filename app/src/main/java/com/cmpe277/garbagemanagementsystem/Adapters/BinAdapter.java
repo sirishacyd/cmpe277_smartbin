@@ -78,7 +78,7 @@ public class BinAdapter extends Adapter<BinAdapter.BinViewHolder> {
                         for (DataSnapshot binSnapShot: dataSnapshot.getChildren()) {
                             binSnapShot.getRef().removeValue();
                         }
-                        Toast.makeText(context,"Bin Deleted Successfuly!",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context,"Bin Deleted Successfully!",Toast.LENGTH_SHORT).show();
                     }
 
                     @Override

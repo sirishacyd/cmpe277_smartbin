@@ -88,10 +88,10 @@ public class CreateBin extends AppCompatActivity implements AdapterView.OnItemSe
                             .toString()).setValue(createBin);
                     Intent intent = new Intent(CreateBin.this, AdminScreen.class);
                     startActivity(intent);
-                    Toast.makeText(this, "Digital Bin Created Successfully",
+                    Toast.makeText(CreateBin.this, "Digital Bin Created Successfully",
                             Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(CreateBin.this, "Please All Boxes!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(CreateBin.this, "Please Enter All Boxes!", Toast.LENGTH_SHORT).show();
                 }
             } catch (Exception e) {
                 Toast.makeText(CreateBin.this, e.toString(), Toast.LENGTH_SHORT).show();
