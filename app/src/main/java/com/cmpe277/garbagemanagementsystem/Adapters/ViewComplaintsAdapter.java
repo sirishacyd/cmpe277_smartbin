@@ -14,6 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.cmpe277.garbagemanagementsystem.AccountsManagement.Complaints;
+import com.cmpe277.garbagemanagementsystem.AccountsManagement.Drivers;
 import com.cmpe277.garbagemanagementsystem.R;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -72,6 +73,13 @@ public class ViewComplaintsAdapter extends RecyclerView.Adapter<ViewComplaintsAd
 
     public void Bind(ArrayList<Complaints> list) {
         this.arrayList = list;
+        notifyDataSetChanged();
+    }
+
+    public void filterList(ArrayList<Complaints> list)
+    {
+        this.arrayList = list;
+        notifyDataSetChanged();
     }
 
     public class CompViewHolder extends RecyclerView.ViewHolder {
