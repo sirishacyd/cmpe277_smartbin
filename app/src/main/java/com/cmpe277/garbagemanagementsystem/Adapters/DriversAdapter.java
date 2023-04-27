@@ -55,14 +55,14 @@ public class DriversAdapter extends RecyclerView.Adapter<DriversAdapter.DriversV
         holder.cnic.setText("CNIC:  "+ drivers.getCnic());
         holder.password.setText("Password:  "+drivers.getUserPassword());
 
-        holder.change.setOnClickListener(v -> {
+/*        holder.change.setOnClickListener(v -> {
             Intent intent = new Intent(context, DriverRegistration.class);
             intent.putExtra("email",drivers.getEmailAddress());
             intent.putExtra("username",drivers.getUserName());
             intent.putExtra("cnic",drivers.getCnic());
             intent.putExtra("password",drivers.getUserPassword());
             context.startActivity(intent);
-        });
+        });*/
         holder.remove.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -113,7 +113,7 @@ public class DriversAdapter extends RecyclerView.Adapter<DriversAdapter.DriversV
 
     public class DriversViewHolder extends RecyclerView.ViewHolder {
         private  final TextView email,userName,cnic,password;
-        private  final RoundedButton change,remove;
+        private  final RoundedButton remove;
 
         public DriversViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -121,7 +121,7 @@ public class DriversAdapter extends RecyclerView.Adapter<DriversAdapter.DriversV
             this.userName = itemView.findViewById(R.id.userName);
             this.cnic = itemView.findViewById(R.id.Cnic);
             this.password = itemView.findViewById(R.id.password);
-            this.change = itemView.findViewById(R.id.change);
+            //this.change = itemView.findViewById(R.id.change);
             this.remove = itemView.findViewById(R.id.remove);
         }
     }
