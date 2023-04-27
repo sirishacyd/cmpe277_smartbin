@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <life.sabujak.roundedbutton.RoundedButton
+        <!--<life.sabujak.roundedbutton.RoundedButton
             android:id="@+id/editProfile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
             android:textSize="18sp"
             app:buttonCornerRadius="50dp"
             app:buttonGradientEndColor="#6ACF10"
-            app:buttonGradientStartColor="#CAE4CB" />
+            app:buttonGradientStartColor="#CAE4CB" />-->
 
     </LinearLayout>
 
