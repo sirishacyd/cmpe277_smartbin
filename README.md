@@ -31,10 +31,10 @@ Overall, our solution is a cost-effective and sustainable way to manage garbage 
 *
 
 ### User Flow Features
-*
-*
-*
-*
+*  Registration and login functionality
+*  Register complaints 
+*  View the previously registerd complaints
+* Logout
 
 ## Architecture Diagram
 
