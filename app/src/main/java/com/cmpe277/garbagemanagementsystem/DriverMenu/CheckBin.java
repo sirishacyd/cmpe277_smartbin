@@ -83,7 +83,7 @@ public class CheckBin extends AppCompatActivity {
     public void filter(String text) {
         ArrayList<DigitalBin> filteredList = new ArrayList<>();
         for (DigitalBin bin : list) {
-            if (bin.getDriverEmail().toLowerCase().contains(text.toLowerCase())) {
+            if (bin.getBinID().toLowerCase().contains(text.toLowerCase())) {
                 filteredList.add(bin);
             }
         }

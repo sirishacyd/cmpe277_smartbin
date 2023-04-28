@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
-        android:hint="Search through Email"
+        android:hint="Search through Bin ID"
         app:startIconDrawable="@drawable/ic_search_icon"
         app:endIconMode="clear_text">
 
