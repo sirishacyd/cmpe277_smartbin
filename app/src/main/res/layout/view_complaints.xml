@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="5dp"
-        android:text="bin id"
+        android:text="Bin id"
         android:textSize="18sp" />
 
     <TextView
@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="5dp"
-        android:text="title"
+        android:text="Title"
         android:textSize="18sp" />
 
     <TextView
@@ -28,12 +28,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="5dp"
-        android:text="description"
+        android:text="Description"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/status"
-        android:text="status"
+        android:text="Status"
         android:padding= "5dp"
         android:textStyle="bold"
         android:layout_width="match_parent"
