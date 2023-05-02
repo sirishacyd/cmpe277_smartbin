@@ -46,6 +46,8 @@ Overall, our solution is a cost-effective and sustainable way to manage waste co
 
 ## Architecture Diagram
 
+![Smartbin_Architecture_Diagram](https://user-images.githubusercontent.com/111547793/235609662-c754d3f7-c48f-4ef9-8ec9-725a0e5f0767.jpeg)
+
 ## Sample Application Screenshots
 
 ## References
