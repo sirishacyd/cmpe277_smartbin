@@ -68,7 +68,7 @@ public class DriverLogIn extends AppCompatActivity {
                         });
             } catch (Exception e) {
                 progressDialog.dismiss();
-                Toast.makeText(this, "Please All boxes!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Please Enter All Fields!", Toast.LENGTH_SHORT).show();
             }
         });
 

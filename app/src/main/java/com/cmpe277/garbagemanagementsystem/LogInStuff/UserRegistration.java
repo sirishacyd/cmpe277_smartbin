@@ -87,7 +87,7 @@ public class UserRegistration extends AppCompatActivity {
                         });
             } catch (Exception e) {
                 progressDialog.dismiss();
-                Toast.makeText(this, "Please Fill All Boxes", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Please Enter All Fields", Toast.LENGTH_SHORT).show();
             }
         });
     }

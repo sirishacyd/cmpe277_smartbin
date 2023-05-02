@@ -19,22 +19,29 @@ Overall, our solution is a cost-effective and sustainable way to manage waste co
 
 ## Application Features
 ### Admin Flow Features
-*
-*
-*
-*
-*
+* Registration and Login Functionality
+* Create New Bins
+* Update Existing Bins
+* Delete Bins
+* Create Drivers
+* View the list of Drivers
+* Delete Drivers
+* View list of Complaints from Users
+* View work status in Work report 
+
 ### Driver Flow Features
 * Drivers can view the list of bins assigned to them and the details of each bin including its location and load type.
 * The application will provide suggestions for the best route to reach each bin location, ensuring efficient waste collection.
 * Drivers will receive real-time updates on any changes to the bin schedule or if any additional bins are added to their list
 * Drivers can collect waste from the assigned bins as per the schedule, with the ability to mark each bin as collected after the waste has been collected
 * Drivers can easily manage the assigned bins and keep track of their collection schedule, ensuring timely and efficient waste collection.
+* View Driver Profile
 
 ### User Flow Features
-*  Registration and login functionality
-*  Register complaints 
-*  View the previously registerd complaints
+* Registration and login functionality
+* Register complaints 
+* View the previously registered complaints
+* View User Profile
 * Logout
 
 ## Architecture Diagram
