@@ -50,5 +50,22 @@ Overall, our solution is a cost-effective and sustainable way to manage waste co
 
 ## Sample Application Screenshots
 
+![admin](screenshots/admin_login.gif)
+
+![driver](screenshots/driver.gif)
+
+![user](screenshots/user_login.gif)
+
+![user1](screenshots/user1.gif)
+
+![register](screenshots/register_admin.gif)
+
+![register](screenshots/rregister_user.gif)
+
+
+
+
+
+
 ## References
 
