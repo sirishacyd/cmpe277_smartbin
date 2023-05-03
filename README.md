@@ -54,9 +54,9 @@ Overall, our solution is a cost-effective and sustainable way to manage waste co
 
 ![map](screenshots/map.gif)
 
-![driver](screenshots/driver.gif)
-
 ![features](screenshots/features.gif)
+
+![driver](screenshots/driver.gif)
 
 ![user](screenshots/user_login.gif)
 
