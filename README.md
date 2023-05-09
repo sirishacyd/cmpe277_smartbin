@@ -79,3 +79,5 @@ Overall, our solution is a cost-effective and sustainable way to manage waste co
 
 https://firebase.google.com/docs/auth
 
+https://developer.android.com/docs
+
