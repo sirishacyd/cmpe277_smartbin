@@ -75,10 +75,7 @@ Overall, our solution is a cost-effective and sustainable way to manage waste co
 
 ![user](screenshots/register_user.gif)
 
-
-
-
-
-
 ## References
+
+https://firebase.google.com/docs/auth
 
